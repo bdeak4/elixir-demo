@@ -4,9 +4,11 @@ Demo i materijali za mini-predavanje "Funkcionalno programiranje u Elixiru"
 
 ## Materijali
 
-[nabavanet_select_live.ex](./lib/demo_web/live/nabavanet_select_live.ex)
+**[Prezentacija](https://github.com/bdeak4/elixir-demo/blob/main/materijali/Funkcionalno%20programiranje%20u%20Elixiru.pdf)**
 
-[nabavanet_select_live.html.heex](./lib/demo_web/live/nabavanet_select_live.html.heex)
+[nabavanet_select_live.ex](https://github.com/bdeak4/elixir-demo/blob/main/lib/demo_web/live/nabavanet_select_live.ex)
+
+[nabavanet_select_live.html.heex](https://github.com/bdeak4/elixir-demo/blob/main/lib/demo_web/live/nabavanet_select_live.html.heex)
 
 ## Demo
 
