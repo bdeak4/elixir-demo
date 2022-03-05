@@ -26,11 +26,11 @@ def zero?(x) do
     raise "NaN"
   end
 
-  if x != 0 do
+  if x == 0 do
+    true
+  else
     false
   end
-
-  true
 end
 
 def zero?(0), do: true
