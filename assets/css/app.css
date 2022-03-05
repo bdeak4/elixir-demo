@@ -91,3 +91,53 @@
 .red {
   color: red;
 }
+
+.clear-button {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  border-color: red;
+  margin-left: 16px;
+}
+
+button {
+  transition: background-color 200ms ease-out, border-color 200ms ease-out;
+}
+
+.autocomplete-item {
+  cursor: pointer;
+}
+
+.autocomplete-item:hover {
+  color: #888;
+}
+
+.search-box {
+  display: flex;
+}
+
+.offer__availability {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+}
+
+.offer__availability[data-availability="1"] {
+  background-color: green;
+}
+
+.offer__availability[data-availability="2"] {
+  background-color: greenyellow;
+}
+
+.offer__availability[data-availability="3"] {
+  background-color: orange;
+}
+
+.offer__availability[data-availability="4"] {
+  background-color: gray;
+}
+
+.offer__availability[data-availability="5"] {
+  background-color: red;
+}

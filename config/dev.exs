@@ -72,3 +72,6 @@ config :phoenix, :stacktrace_depth, 20
 
 # Initialize plugs at runtime for faster development compilation
 config :phoenix, :plug_init_mode, :runtime
+
+config :ex_nabava,
+  device_id: "79f47543-19dd-4889-af71-ab81d6c5b380"

@@ -13,8 +13,12 @@
   <%= number_input f, :price, step: "any" %>
   <%= error_tag f, :price %>
 
-  <%= label f, :nabavanet_id %>
-  <%= number_input f, :nabavanet_id %>
+  <%= label f, :nabavanet_id, "Nabava.net product" %>
+  <%= live_render(
+    @conn,
+    DemoWeb.NabavanetSelectLive,
+    session: %{"nabavanet_id" =>  input_value(f, :nabavanet_id)}
+  ) %>
   <%= error_tag f, :nabavanet_id %>
 
   <div>
