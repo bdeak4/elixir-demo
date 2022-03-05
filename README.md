@@ -4,7 +4,9 @@ Demo i materijali za mini-predavanje "Funkcionalno programiranje u Elixiru"
 
 ## Materijali
 
-...
+[nabavanet_select_live.ex](./lib/demo_web/live/nabavanet_select_live.ex)
+
+[nabavanet_select_live.html.heex](./lib/demo_web/live/nabavanet_select_live.html.heex)
 
 ## Demo
 
